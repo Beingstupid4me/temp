@@ -329,6 +329,7 @@ def crawl_site(start_url: str, domain: str, max_pages: int = 50):
     options = webdriver.ChromeOptions()
     options.add_argument("--headless")
     options.add_argument("--disable-gpu")
+    options.binary_location = os.path.expanduser("~/chrome/opt/google/chrome/chrome")
     driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), options=options)
 
     # Set wkhtmltopdf path (adjust if necessary)
