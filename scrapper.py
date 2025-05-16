@@ -40,7 +40,7 @@
 
 # %%
 # Install packages (uncomment if needed)
-%pip install selenium webdriver-manager beautifulsoup4 pdfkit networkx matplotlib PyPDF2 chromadb nltk sentence-transformers python-docx transformers
+# %pip install selenium webdriver-manager beautifulsoup4 pdfkit networkx matplotlib PyPDF2 chromadb nltk sentence-transformers python-docx transformers
 
 # %% 
 import os
